@@ -5,7 +5,7 @@ class Solution {
      if(n<=0){
         return result;
      }
-     for(long i=0; i<=999; i++){ 
+     for(long i=0; i<=30; i++){ 
           if((long)Math.pow(3,i) == n){
                result = true;
           }

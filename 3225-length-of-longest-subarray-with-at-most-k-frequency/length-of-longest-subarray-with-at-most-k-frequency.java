@@ -17,5 +17,31 @@ class Solution {
         }
 
         return maxLength;
+    //     if(nums.length <3){
+    //         return k;
+    //     }
+    //     int[] array = new int[nums.length];
+    //   int temp = nums[0];
+    //   int ke = 0;
+
+    //     for (int i = 0; i < nums.length; i++) {
+
+    //         boolean present = false;
+
+    //         for (int j = 0; j < ke; j++) {
+    //             if (array[j] == nums[i]) {
+    //                 present = true;
+    //                 break;
+    //             }
+    //         }
+
+    //         if (!present) {
+    //             array[ke] = nums[i];
+    //             ke++;
+    //         }
+           
+    //     } 
+         
+    //     return ke*k;
     }
 }
